@@ -1,0 +1,29 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joie-Kim/wetube-reloaded.git"
+  },
+  "author": "Joie Kim<joie.huiju@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joie-Kim/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/Joie-Kim/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "4.18.1",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.2",
+    "@babel/node": "7.17.10",
+    "@babel/preset-env": "7.18.2",
+    "nodemon": "2.0.16"
+  }
+}
